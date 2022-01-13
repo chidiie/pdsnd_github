@@ -84,7 +84,7 @@ def load_data(city, month, day):
         months = ['january','february','march','april','may','june']
         month = months.index(month) + 1
          
-   # In order to create a new dataframe, you filter by month
+   # In order to create a new dataframe, you filter by the month
         df[df['month'] == month]
                                  
    # You can also filter by the day of the week to create a new dataframe
